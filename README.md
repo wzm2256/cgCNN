@@ -85,4 +85,4 @@ Please visit our [project page](http://captain.whu.edu.cn/cgcnn-texture/) for mo
     primaryClass={cs.CV}
     }
 
-For any questions, please contact Ziming Wang (wangzm@whu.edu.cn).
+For any question, please contact Ziming Wang (wangzm@whu.edu.cn).
