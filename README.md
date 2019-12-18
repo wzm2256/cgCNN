@@ -1,4 +1,4 @@
-#Conditional Generative ConvNets for Exemplar-based Texture Synthesis
+# Conditional Generative ConvNets for Exemplar-based Texture Synthesis
 
 This is a tensorflow implement of the cgCNN model proposed in [Conditional Generative ConvNets for Exemplar-based Texture Synthesis](https://arxiv.org/abs/1912.07971).
 
