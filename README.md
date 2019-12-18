@@ -10,7 +10,7 @@ This repository contains implements of three tasks as described below.
 |Texture expansion|Synthesis new textures that are larger (or arbitrarily large) than the given exemplar texture.|
 |Texture inpainting|Fill the corrupted region in the given exemplar texture.|
 
-Three types of textures, i.e. dynamic, image and sound textures, are considered for each task, and each applications is placed in an individual folder. For example, the code for dynamic texture inpainting is placed in *./dynamic_inpaint*, and the code for image texture expansion is placed in *./image_expansion*.
+Three types of textures, i.e. dynamic, image and sound textures, are considered for each task, and each application is placed in an individual folder. For example, the code for dynamic texture inpainting is placed in *./dynamic_inpaint*, and the code for image texture expansion is placed in *./image_expansion*.
 
 Please visit our [project page](http://captain.whu.edu.cn/cgcnn-texture/) for more results.
 
