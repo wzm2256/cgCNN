@@ -8,7 +8,7 @@ import time
 import librosa
 import os
 
-parser = argparse.ArgumentParser(description='Sound inpainting')
+parser = argparse.ArgumentParser(description='Sound texture inpainting')
 
 parser.add_argument('--image', type=str, help='audio name')
 parser.add_argument('--mean', type=int, default=1, help='use mean or Gram')

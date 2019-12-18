@@ -1,0 +1,8 @@
+model_checkpoint_path: "-3000"
+all_model_checkpoint_paths: "-0"
+all_model_checkpoint_paths: "-500"
+all_model_checkpoint_paths: "-1000"
+all_model_checkpoint_paths: "-1500"
+all_model_checkpoint_paths: "-2000"
+all_model_checkpoint_paths: "-2500"
+all_model_checkpoint_paths: "-3000"

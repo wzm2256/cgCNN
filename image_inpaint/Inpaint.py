@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 import time
 
 
-parser = argparse.ArgumentParser(description='Neural style transfer with Keras.')
+parser = argparse.ArgumentParser(description='Image texture inpainting.')
 
 parser.add_argument('--image', type=str, default='022.jpg', help='original image')
 parser.add_argument('--mask', type=str, default='mask2.png', help='mask')
@@ -16,7 +16,7 @@ parser.add_argument('--mean', type=int, default=1, help='use mean or Gram')
 parser.add_argument('--inner', type=int, default=10, help='Number of Langevin steps in each iteration')
 parser.add_argument('--tv', type=float, default=0.00000000, help='total variation penalty')
 parser.add_argument('--fou', type=float, default=0.0001, help='Fourier norm penalty')
-parser.add_argument('--Iter', type=int, default=1000, help='Number of iterations')
+parser.add_argument('--Iter', type=int, default=1000, help='number of iterations')
 
 args = parser.parse_args()
 
@@ -109,6 +109,8 @@ image_processed = Init - AVE
 image_tf = tf.Variable(image_processed, dtype=tf.float32)
 ref = tf.expand_dims(image_tf, axis=0)
 
+# prepare patches
+
 y_0,y_l,x_0,x_l = bound_box(loaded_mask_array1)
 
 
@@ -190,11 +192,11 @@ layer_name = ['relu1', 'relu2', 'block1_pool', 'relu3']
 # 	return matrix / denominator
 
 
-def gram_loss(feature1, reference):
-	F1 = gram_matrix(feature1)
-	F2 = gram_matrix(reference)
-	loss = tf.reduce_mean((F1 - F2) ** 2)
-	return loss
+# def gram_loss(feature1, reference):
+# 	F1 = gram_matrix(feature1)
+# 	F2 = gram_matrix(reference)
+# 	loss = tf.reduce_mean((F1 - F2) ** 2)
+# 	return loss
 
 def mean_loss(feature1, reference):
 	m1 = tf.reduce_mean(feature1, axis=(1,2))
