@@ -39,7 +39,7 @@ Please visit our [project page](http://captain.whu.edu.cn/cgcnn-texture/) for mo
 #### Sound texture synthesis
 |Exemplar|Result|
 |--------------|--------------|
-|[applause_exemplar](readme_fig\s_s\norm_Enthusiastic_applause.wav)|[applause_synthesis](readme_fig\s_s\norm_Enthusiastic_applause.wav_Model_1_depth_4_IsMean_0_Adam_0_Fou_0_Gau_1e-08_inner_10_1_3000_.wav) |
+|[applause_exemplar](readme_fig/s_s/norm_Enthusiastic_applause.wav)|[applause_synthesis](readme_fig/s_s/norm_Enthusiastic_applause.wav_Model_1_depth_4_IsMean_0_Adam_0_Fou_0_Gau_1e-08_inner_10_1_3000_.wav) |
 
 ### Texture expansion
 #### Image texture expansion
@@ -56,7 +56,7 @@ Please visit our [project page](http://captain.whu.edu.cn/cgcnn-texture/) for mo
 #### Sound texture expansion
 |Exemplar|Result|
 |--------------|--------------|
-|[shaking_paper_exemplar](readme_fig\s_e\norm_shaking_paper.wav)|[shaking_paper_expansion](readme_fig\s_e\norm_shaking_paper.wav_depth_4_inner_10_IsMean_0_Adam_0_Gau_0.0_diversity_No_d_weight_0.wav) |
+|[shaking_paper_exemplar](readme_fig/s_e/norm_shaking_paper.wav)|[shaking_paper_expansion](readme_fig/s_e/norm_shaking_paper.wav_depth_4_inner_10_IsMean_0_Adam_0_Gau_0.0_diversity_No_d_weight_0.wav) |
 
 ### Texture inpainting
 #### Image texture inpainting
@@ -72,7 +72,7 @@ Please visit our [project page](http://captain.whu.edu.cn/cgcnn-texture/) for mo
 #### Sound texture inpainting
 |Exemplar|Result|
 |--------------|--------------|
-|[bees_exemplar](readme_fig\s_i\masked_norm_Bees.wav)|[bees_inpainted](readme_fig\s_i\norm_Bees.wav__mean_1_inner_10_fou_1600_.wav) |
+|[bees_exemplar](readme_fig/s_i/masked_norm_Bees.wav)|[bees_inpainted](readme_fig/s_i/norm_Bees.wav__mean_1_inner_10_fou_1600_.wav) |
 
 ## Reference
 
