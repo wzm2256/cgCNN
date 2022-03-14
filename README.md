@@ -76,13 +76,15 @@ Please visit our [project page](http://www.captain-whu.com/project/cgcnn/) for m
 
 ## Reference
 
-    @misc{wang2019conditional,
-    title={Conditional Generative ConvNets for Exemplar-based Texture Synthesis},
-    author={Zi-Ming Wang and Meng-Han Li and Gui-Song Xia},
-    year={2019},
-    eprint={1912.07971},
-    archivePrefix={arXiv},
-    primaryClass={cs.CV}
-    }
 
+    @article{wang2021conditional,
+    title={Conditional generative ConvNets for exemplar-based texture synthesis},
+    author={Zi-Ming Wang and Li, Meng-Han and Xia, Gui-Song},
+    journal={IEEE Transactions on Image Processing},
+    volume={30},
+    pages={2461--2475},
+    year={2021},
+    publisher={IEEE}
+    }
+    
 For any question, please contact Ziming Wang (wangzm@whu.edu.cn).
