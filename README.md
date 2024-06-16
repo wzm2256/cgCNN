@@ -12,7 +12,7 @@ This repository contains implements of three tasks as described below.
 
 Three types of textures, i.e. dynamic, image and sound textures, are considered for each task, and each application is placed in an individual folder. For example, the code for dynamic texture inpainting is placed in *./dynamic_inpaint*, and the code for image texture expansion is placed in *./image_expansion*.
 
-Please visit our [project page](http://www.captain-whu.com/project/cgcnn/) for more results.
+Please visit our [project page](https://wzm2256.github.io/cgCNN_web/) for more results.
 
 ## Requirements
 - python=3.5
